@@ -22,7 +22,12 @@ setup(
    
 },
     
-    install_requires=["loguru","dbflux","telethon","python-socks[asyncio]"],
+    install_requires=[
+        "loguru",
+        "dbflux",
+        "telethon",
+        "python-socks[asyncio]"
+        ],
     
     keywords=[
         'telethon','telegram',
