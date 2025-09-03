@@ -1,7 +1,7 @@
-from .core              import TeloxiClient
-from .storage           import Account,Storage
-from .device               import Device,DeviceData
-from .profile           import NameFactory
+from .core import TeloxiClient
+from .storage import Account,Storage
+from .device import Device,DeviceData
+from .profile  import NameFactory
 from . import version
 
 
