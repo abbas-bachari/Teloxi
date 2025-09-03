@@ -100,7 +100,7 @@ class TelegramClient(TelethonClient, BaseObject):
         self,
         session_id: str,
         device: Union[Type[DeviceData], DeviceData] = None,
-        database: Storage = Storage(),
+        database: Storage = None,
        
         *,
         
@@ -260,13 +260,14 @@ class TelegramClient(TelethonClient, BaseObject):
                 self,
                 session_id: str ,
                 device: Union[Type[DeviceData], DeviceData] = None,
-                database: Storage = Storage(),
+                database: Storage = None,
                 **kwargs,
                 ):
         
 
         
-        
+        if not database:
+            database=Storage()
         
         self.database=database
         self.database.delete(conditions=[ Account.status.in_(['',None])])

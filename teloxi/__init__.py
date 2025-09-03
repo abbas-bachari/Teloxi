@@ -14,7 +14,7 @@ from telethon import  events, utils, errors, types, functions, custom,password
 __version__ = version.__version__
 
 __all__ = [
-    'TeloxiClient','Account','Storage','API','APIData',
+    'TeloxiClient','Account','Storage','Device','DeviceData',
     'NameFactory','connection','Button','events','utils',
     'errors','types','functions','custom','password'
     ]
