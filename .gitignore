@@ -17,3 +17,4 @@ dist/
 proxies.txt
 data.db
 sessions.ses
+.gitignore
