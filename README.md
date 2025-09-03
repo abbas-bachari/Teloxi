@@ -330,11 +330,7 @@ Updated 1 session!
 
 ## 👤 About the Author
 
-**Abbas Bachari** – Developer & Maintainer of **Teloxi**
+**Abbas Bachari / عباس بچاری** – Developer & Maintainer of **Teloxi**
 
-- 📧 Email: [abbas-bachari@hotmail.com](mailto:abbas-bachari@hotmail.com)  
-- 🌐 GitHub: [github.com/abbas-bachari](https://github.com/abbas-bachari)  
-- 📝 Bio: A passionate Python developer creating user-friendly libraries for Telegram automation, enhancing Telethon with extra features.  
-- 💡 Interests: Python, Telegram bots, automation, open-source contributions.
-
-> “Creating tools that simplify and empower developers to interact with Telegram efficiently.”
+- 📧 Telegram: [@abbas_bachari](https://t.me/abbas_bachari)  
+- 🌐 GitHub: [github.com/abbas-bachari](https://github.com/abbas-bachari)
