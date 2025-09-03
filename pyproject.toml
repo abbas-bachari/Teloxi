@@ -28,8 +28,8 @@ classifiers = [
 ]
 
 dependencies = [
-    "dbflux=>1.0.2",
-    "telethon=>1.41.0",
+    "dbflux>=1.0.2",
+    "telethon>=1.41.0",
     "python-socks[asyncio]",
 ]
 
