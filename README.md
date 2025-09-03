@@ -33,7 +33,7 @@
 ## 📚 **Requirements**
 
 * **Python 3.8+**
-* **telethon 1.40.0**
+* **telethon >= 1.41.0**
 * **dbflux >= 1.0.2**
 
 ---
