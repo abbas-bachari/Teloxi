@@ -109,7 +109,7 @@ class Features:
 
             res = await self(functions.account.ResetPasswordRequest())
             if isinstance(res,types.account.ResetPasswordOk):
-                self.database.update({"password":''})
+                self.database.update({"password":None})
                 return True
             
             if isinstance(res,types.account.ResetPasswordRequestedWait):
@@ -193,7 +193,7 @@ class Features:
                                 url=app_url))
                     
         
-    async def start_bot(self,bot: types.TypeInputUser,peer: types.TypeInputPeer,start_param: str='',random_id: int = None):
+    async def start_bot(self,bot,peer=None,start_param: str='',random_id: int = None)-> types.Updates | types.Message:
         """
         Start a bot on Telegram.
 
@@ -204,9 +204,15 @@ class Features:
             random_id: The random ID to use. Defaults to None.
 
         Returns:
-            The result of the operation.
+            Updates:
+            Instance of either UpdatesTooLong, UpdateShortMessage, UpdateShortChatMessage, UpdateShort, UpdatesCombined, Updates, UpdateShortSentMessage.
         """
-
+        if not start_param:
+            return await self.send_message(bot,'/start')
+        
+        if not peer:
+            peer=bot
+        
         return await self(functions.messages.StartBotRequest(bot=bot,peer=peer,start_param=start_param,random_id=random_id))
 
     async def get_full_me(self, reload=False) -> FullUser:
