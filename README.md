@@ -2,7 +2,7 @@
 
 <p align="center">
 <a href="https://pypi.org/project/teloxi/"><img src="https://img.shields.io/pypi/v/teloxi?style=plastic" alt="PyPI - Version"></a>
-<a href="https://github.com/abbas-bachari/teloxi"><img src="https://img.shields.io/badge/Python%20-3.8+-green?style=plastic&logo=Python" alt="Python"></a>
+<a href="https://github.com/abbas-bachari/teloxi"><img src="https://img.shields.io/badge/Python%20-3.10+-green?style=plastic&logo=Python" alt="Python"></a>
   <a href="https://pypi.org/project/teloxi/"><img src="https://img.shields.io/pypi/l/teloxi?style=plastic" alt="License"></a>
   <a href="https://pepy.tech/project/teloxi"><img src="https://pepy.tech/badge/teloxi?style=flat-plastic" alt="Downloads"></a>
 </p>
