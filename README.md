@@ -7,7 +7,7 @@
   <a href="https://pepy.tech/project/teloxi"><img src="https://pepy.tech/badge/teloxi?style=flat-plastic" alt="Downloads"></a>
 </p>
 
-## 🛠️ Version: 1.0.0
+## 🛠️ Version: 1.0.1
 
 ## 🌟 **Introduction**
 

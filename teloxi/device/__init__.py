@@ -16,15 +16,15 @@ def select_api(device_name: str):
 def update_app_version(device: DeviceData):
     
     default_versions = {
-        'tdesktop': '6.0.2 x64',
-        'ios': '11.14',
-        'macos': '11.15'
+        'tdesktop': '6.1.2 x64',
+        'ios': '12.0',
+        'macos': '11.15.1'
     }
 
    
     android_versions = {
         'TelegramAndroidX': "0.27.10.1752-arm64-v8a",
-        'TelegramAndroid': '11.14.1 (6108)'
+        'TelegramAndroid': '12.0.1 (6166)'
     }
 
     if device.lang_pack == 'android':
