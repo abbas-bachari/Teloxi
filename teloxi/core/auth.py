@@ -556,7 +556,7 @@ class AuthMethods:
 
                 
                 _phone=phone.strip().replace(' ','') if phone.startswith('+') else '+'+phone.strip().replace(' ','')
-                print(f"Verification code for {_phone} sent via {send_code_text(code_type.__class__.__name__)}.", file=sys.stderr)
+                print(f"Verification code sent via {send_code_text(code_type.__class__.__name__)}.", file=sys.stderr)
                 if result.next_type:
                     print(f'Wait {timeout}s, then Enter to resend via {send_code_text(result.next_type.__class__.__name__)}.', file=sys.stderr)
                 

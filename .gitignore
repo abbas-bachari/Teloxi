@@ -18,3 +18,4 @@ proxies.txt
 data.db
 sessions.ses
 .gitignore
+update_readme.py

@@ -1,15 +1,16 @@
 [build-system]
-requires = ["setuptools>=61.0"]
+requires = ["setuptools>=77.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
 name = "teloxi"
-version = "1.0.0"
+dynamic = ["version"]
+
 description = "A user-friendly library based on Telethon, with additional features and easier usage."
 readme = "README.md"
-license = { text = "MIT" }
+license = "MIT"
 authors = [
-    { name = "Abbas Bachari", email = "abbas-bachari@hotmail.com" },
+    { name = "Abbas Bachari", email = "abbas-bachari@hotmail.com" }
 ]
 requires-python = ">=3.10"
 keywords = [
@@ -17,20 +18,20 @@ keywords = [
     "telegram multi session",
     "telegram-python", "opentele",
     "openetele", "teloxi", "dbflux",
-    "api", "abbas bachari", "عباس بچاری",
+    "api", "abbas bachari", "عباس بچاری"
 ]
 classifiers = [
     "Intended Audience :: Developers",
     "Topic :: Software Development :: Libraries :: Python Modules",
-    "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
-    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3"
 ]
 
 dependencies = [
-    "dbflux>=1.0.2",
-    "telethon>=1.41.0",
-    "python-socks[asyncio]",
+    "loguru",
+    "dbflux",
+    "telethon",
+    "python-socks[asyncio]"
 ]
 
 [project.urls]

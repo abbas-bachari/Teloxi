@@ -7,7 +7,7 @@
   <a href="https://pepy.tech/project/teloxi"><img src="https://pepy.tech/badge/teloxi?style=flat-plastic" alt="Downloads"></a>
 </p>
 
-## 🛠️ Version 1.0.0
+## 🛠️ Version: 1.0.0
 
 ## 🌟 **Introduction**
 
@@ -32,9 +32,9 @@
 
 ## 📚 **Requirements**
 
-* **Python 3.8+**
-* **telethon >= 1.41.0**
-* **dbflux >= 1.0.2**
+* **[Python 3.10+](https://python.org)**
+* **[telethon 1.41.2+](https://pypi.org/project/telethon)**
+* **[dbflux 1.0.2+](https://pypi.org/project/dbflux)**
 
 ---
 
