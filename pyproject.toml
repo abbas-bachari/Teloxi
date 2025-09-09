@@ -1,41 +1,49 @@
 [build-system]
-requires = ["setuptools>=77.0"]
+requires = [
+    'setuptools>=80.0.0',
+    'wheel',
+]
 build-backend = "setuptools.build_meta"
 
 [project]
 name = "teloxi"
-dynamic = ["version"]
-
+version = "1.0.2"
 description = "A user-friendly library based on Telethon, with additional features and easier usage."
 readme = "README.md"
-license = "MIT"
-authors = [
-    { name = "Abbas Bachari", email = "abbas-bachari@hotmail.com" }
-]
 requires-python = ">=3.10"
+license = "MIT"
 keywords = [
-    "telethon", "telegram",
-    "telegram multi session",
-    "telegram-python", "opentele",
-    "openetele", "teloxi", "dbflux",
-    "api", "abbas bachari", "عباس بچاری"
+    'telethon',
+    'telegram',
+    'telegram multi session',
+    'telegram-python',
+    'opentele',
+    'openetele',
+    'teloxi',
+    'dbflux',
+    'api',
+    'abbas bachari',
+    'عباس بچاری',
 ]
 classifiers = [
-    "Intended Audience :: Developers",
-    "Topic :: Software Development :: Libraries :: Python Modules",
-    "Operating System :: OS Independent",
-    "Programming Language :: Python :: 3"
+    'Intended Audience :: Developers',
+    'Programming Language :: Python :: 3.10',
+    'Programming Language :: Python :: 3.11',
+    'Programming Language :: Python :: 3.12',
+    'Operating System :: OS Independent',
+]
+dependencies = [
+    'loguru>=0.7.3',
+    'dbflux>=1.0.2',
+    'telethon>=1.41.2',
+    'python-socks[asyncio]>=2.7.2',
 ]
 
-dependencies = [
-    "loguru",
-    "dbflux",
-    "telethon",
-    "python-socks[asyncio]"
-]
+[[project.authors]]
+name = "Abbas Bachari"
+email = "abbas-bachari@hotmail.com"
 
 [project.urls]
 Homepage = "https://github.com/abbas-bachari/teloxi"
-Documentation = "https://github.com/abbas-bachari/teloxi"
-Source = "https://github.com/abbas-bachari/teloxi/"
-Tracker = "https://github.com/abbas-bachari/teloxi/issues"
+Documentation = "https://github.com/abbas-bachari/teloxi#readme"
+Source = "https://github.com/abbas-bachari/teloxi"

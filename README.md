@@ -1,13 +1,25 @@
 <h1 align="center">🚀 Teloxi: Based on Telethon, with additional features and easier usage</h1>
 
 <p align="center">
-<a href="https://pypi.org/project/teloxi/"><img src="https://img.shields.io/pypi/v/teloxi?style=plastic" alt="PyPI - Version"></a>
-<a href="https://github.com/abbas-bachari/teloxi"><img src="https://img.shields.io/badge/Python%20-3.10+-green?style=plastic&logo=Python" alt="Python"></a>
-  <a href="https://pypi.org/project/teloxi/"><img src="https://img.shields.io/pypi/l/teloxi?style=plastic" alt="License"></a>
-  <a href="https://pepy.tech/project/teloxi"><img src="https://pepy.tech/badge/teloxi?style=flat-plastic" alt="Downloads"></a>
+    <!-- PyPI Version -->
+    <a href="https://pypi.org/project/teloxi/">
+        <img src="https://img.shields.io/pypi/v/teloxi?style=plastic" alt="PyPI - Version">
+    </a>
+    <!-- Python Versions -->
+    <a href="https://pypi.org/project/teloxi/">
+        <img src="https://img.shields.io/pypi/pyversions/teloxi?style=plastic" alt="Python Versions">
+    </a>
+    <!-- License -->
+    <a href="https://pypi.org/project/teloxi/">
+        <img src="https://img.shields.io/pypi/l/teloxi?style=plastic" alt="License">
+    </a>
+    <!-- Downloads -->
+    <a href="https://pepy.tech/project/teloxi">
+        <img src="https://pepy.tech/badge/teloxi?style=flat-plastic" alt="Downloads">
+    </a>
 </p>
 
-## 🛠️ Version: 1.0.1
+## 🛠️ Version: 1.0.2
 
 ## 🌟 **Introduction**
 
